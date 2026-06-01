@@ -8,7 +8,7 @@ echo "Language,Category,Input_Size,Run,Time_Seconds,Max_RAM_KB" > $OUTPUT_FILE
 
 # 3. Define the complete experimental parameters (2 x 3 x 3 = 18 experiments * 2 languages = 36 runs)
 CATEGORIES=("numeric" "string") 
-SIZES=("100000" "10000000" "1000000000") 
+SIZES=("100000" "10000000" "100000000") 
 REPEATS=(1 2 3) 
 
 echo "Starting Thesis Benchmark Pipeline..."
